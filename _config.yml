@@ -1,0 +1,29 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://www.gruasyplataformas.mx
+title: Grúas y Plataformas
+email: amecomx@gmail.com 
+author: Juan Manuel Andrade Ruiz
+description: "Asesoría profesional en grúas y plataformas"
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: facebook
+    url: https://www.facebook.com/lavozde.satelite
+  - title: twitter
+    url: https://twitter.com/saleyvale
+  - title: linkedin
+    url: https://mx.linkedin.com/in/amecomx 
