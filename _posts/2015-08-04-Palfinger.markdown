@@ -1,7 +1,7 @@
 ---
 layout: default
 img: palfinger.png
-category: Services
+category: Palfinger
 title: Palfinger
 description: |
 ---
