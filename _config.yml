@@ -27,3 +27,10 @@ social:
     url: https://twitter.com/saleyvale
   - title: linkedin
     url: https://mx.linkedin.com/in/gruasyplataformas
+
+# ----------------------- #
+#     Color Settings      #
+# ----------------------- #
+color:
+  primary: 18bc9c
+  primary-rgb: "24,288,156"
