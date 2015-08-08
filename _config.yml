@@ -34,3 +34,6 @@ social:
 color:
   primary: 18bc9c
   primary-rgb: "24,288,156"
+
+gems:
+  - jekyll-sitemap
