@@ -1,6 +1,6 @@
 ---
 layout: default
-img: grove.png
+img: grove.jpg
 category: Manitowoc 
 title: Grove
 description: |

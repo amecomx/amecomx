@@ -1,6 +1,6 @@
 ---
 layout: default
-img: palfinger.png
+img: palfinger.jpg
 category: Palfinger
 title: Palfinger
 description: |

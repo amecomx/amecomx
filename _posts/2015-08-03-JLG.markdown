@@ -1,6 +1,6 @@
 ---
 layout: default
-img: jlg.png
+img: jlg.jpg
 category: JLG 
 title: JLG
 description: |
