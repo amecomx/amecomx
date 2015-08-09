@@ -2,10 +2,10 @@
 layout: default
 img: national.jpeg
 category: National 
-title: National
+title: National<br>Grúa montada sobre camión	
 description: |
 ---
-Grúas montadas en camión, con una tecnología avanzada e innovadora. Gruas con operador de pie y controles en asiento giratorio.
+Grúas montadas en camión, con una tecnología avanzada e innovadora. Grúas con operador de pie y controles en asiento giratorio.
 
 Las grúas telescópicas National cumplen con los estándares de seguridad y excelencia requeridos para sus trabajos.
  
