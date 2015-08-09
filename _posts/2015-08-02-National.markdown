@@ -1,8 +1,0 @@
----
-layout: default
-img: national.jpg
-category: National 
-title: National
-description: |
----
-  National son las mejores gruas

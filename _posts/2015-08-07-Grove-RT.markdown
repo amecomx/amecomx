@@ -1,0 +1,8 @@
+---
+layout: default
+img: missing.jpg
+category: Manitowoc 
+title: Grove - RT
+description: |
+---
+tienen como características un alto perfil en cada sección de caja diseñado para manejar en las condiciones ásperas que tenga en los sitios de trabajo. Cuatro modos de conducción permiten maniobrar fácilmente en sitios pequeños. Ya que las aplicaciones de recoger y levantar son típicas para las grúas "rough terrain", teniendo una lata productividad.

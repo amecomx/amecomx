@@ -1,8 +1,0 @@
----
-layout: default
-img: jlg.jpg
-category: JLG 
-title: JLG
-description: |
----
-JLG son las mejores grúas

@@ -1,0 +1,8 @@
+---
+layout: default
+img: grove-gmk.jpg
+category: Manitowoc 
+title: Grove GMK
+description: |
+---
+las grúas con la tecnología más avanzada en el mercado mundial, ofrece una convinación de excelente rendimiento fuera de carretera con una alta capacidad de elevación, cuenta con un exclusivo sistema de suspensión MEGATRAK, que mejora la maniobrabilidad y la tracción, tanto fuera como dentro de la carretera, también cuenta con una patente de pluma MEGAFORM que ayuda a la grúa a tener mucha más capacidad de carga que el promedio de la competencia.

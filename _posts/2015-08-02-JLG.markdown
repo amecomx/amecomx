@@ -1,0 +1,8 @@
+---
+layout: default
+img: jlg.jpg
+category: JLG 
+title: JLG
+description: |
+---
+Plataformas articuladas, telescópicas, elevadores personales, de tijera, remolcables, elevadores híbridos muy compactos y manipuladores telescópicos.

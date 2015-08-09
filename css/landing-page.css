@@ -22,9 +22,17 @@ h6 {
     font-weight: 700;
 }
 
+.content-section {
+    padding: 30px 0;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
+}
+
+.lead h2 {
+    padding: 22px 0;
 }
 
 .intro-header {
@@ -59,8 +67,16 @@ h6 {
     font-size: 2em;
 }
 
-.about{
+#about{
     background-color: #f8f8f8;
+}
+
+#about p {
+    margin: 20px 0;
+}
+
+#mission  p {
+    margin: 20px 0;
 }
 
 @media(max-width:767px) {
@@ -187,10 +203,11 @@ section.success {
     padding-left: 0;
     border: 0;
     border-radius: 0;
-    font-size: 1.5em;
+    font-size: 1.1em;
     background: 0 0;
     box-shadow: none!important;
     resize: none;
+    height: 25px;
 }
 
 .floating-label-form-group label {
@@ -224,13 +241,55 @@ section.success {
     color: #{{ site.color.primary }};
 }
 
-form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
-}
-
 footer {
     padding: 50px 0;
     background-color: #f8f8f8;
+}
+
+footer .footer-links {
+    padding: 9px;
+    text-align: left
+}
+
+footer .footer-social {
+    text-align: right;
+}
+
+@media(max-width:992px) {
+    footer .footer-links {
+        text-align: center;
+    }
+
+    footer .footer-social {
+        text-align: center;
+    }
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	font-size: 20px;
+	line-height: 40px;
+	outline: 0;
+	color: #fff;
+	background-color: #222;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #{{ site.color.primary }};
 }
 
 p.copyright {

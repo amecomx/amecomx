@@ -1,8 +1,0 @@
----
-layout: default
-img: grove.jpg
-category: Manitowoc 
-title: Grove
-description: |
----
-  Grove son la mejores grúas del mercado
