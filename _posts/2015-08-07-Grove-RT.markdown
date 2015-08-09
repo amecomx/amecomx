@@ -1,6 +1,6 @@
 ---
 layout: default
-img: missing.jpg
+img: grove-rt.jpg
 category: Manitowoc 
 title: Grove - RT
 description: |
