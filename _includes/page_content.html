@@ -1,52 +1,82 @@
 <section id="products">
 <!-- Page Content -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="page-header">
+        <h1>JLG</h1>
+      </div>
+      <div class="row">
+        <img class="img-responsive col-sm-9" src="img/products/jlgWide.png" alt="JLG" />
+        <div class="col-sm-3">
+          <p>
+          Plataformas articuladas, telescópicas, elevadores personales, de tijera,
+          remolcables, elevadores híbridos muy compactos y manipuladores
+          telescópicos.
+          </p>
+          <p>
+          Si lo que necesita es productividad, JLG ofrece subir más, trabajar con
+          rapidez, ayudando a alcanzar nuevas alturas y desafiar los obstáculos que
+          tenga.
+          </p>
+          <p>
+          JLG es sinónimo de tecnología y seguridad, que asegura que usted pueda
+          hacer su trabajo de alturas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% for post in site.posts reversed %}
-  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == 'even' %}
-    <div class="content-section-a">
+{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+{% if thecycle == 'even' %}
+<div class="content-section-a">
 
-        <div class="container">
+  <div class="container">
 
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
-                    <div class="lead">{{ post.content }}</div>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/products/{{ post.img }}" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
+    <div class="row">
+      <div class="col-lg-5 col-sm-6">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">{{ post.title }}</h2>
+        <div class="lead">{{ post.content }}</div>
+      </div>
+      <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+        <img class="img-responsive" src="img/products/{{ post.img }}" alt="">
+      </div>
     </div>
-    <!-- /.content-section-a -->
-    {% else %}
 
-    <div class="content-section-b">
+  </div>
+  <!-- /.container -->
 
-        <div class="container">
+</div>
+<!-- /.content-section-a -->
+{% else %}
 
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
-                    <div class="lead">{{ post.content }}</div>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/products/{{ post.img }}" alt="">
-                </div>
-            </div>
+<div class="content-section-b">
 
-        </div>
-        <!-- /.container -->
+  <div class="container">
 
+    <div class="row">
+      <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">{{ post.title }}</h2>
+        <div class="lead">{{ post.content }}</div>
+      </div>
+      <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+        <img class="img-responsive" src="img/products/{{ post.img }}" alt="">
+      </div>
     </div>
-    <!-- /.content-section-b -->
-    {% endif %}
+
+  </div>
+  <!-- /.container -->
+
+</div>
+<!-- /.content-section-b -->
+{% endif %}
 {% endfor %}
 </section>
