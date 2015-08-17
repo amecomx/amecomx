@@ -22,6 +22,10 @@ h6 {
     font-weight: 700;
 }
 
+.row p {
+  font-weight: 400;
+}
+
 .content-section {
     padding: 30px 0;
 }
