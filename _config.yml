@@ -20,6 +20,10 @@ permalink: pretty
 #   3rd Party Settings    #
 # ----------------------- #
 
+topsocial:
+  - title: linkedin
+    url: https://mx.linkedin.com/in/gruasyplataformas
+
 social:
   - title: facebook
     url: https://www.facebook.com/pages/Gr%C3%BAas-y-Plataformas/881963701841537

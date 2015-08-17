@@ -299,3 +299,9 @@ ul.social-buttons li a:active {
 p.copyright {
     margin: 15px 0 0;
 }
+
+#hero {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  text-align: center;
+}
