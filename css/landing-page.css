@@ -55,7 +55,7 @@ h6 {
     padding-top: 20px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpeg) no-repeat center -10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header.jpg) no-repeat center center;
     background-size: cover;
 }
 
